@@ -127,6 +127,10 @@
 
 /* Boton para volver */
 
+.btn--return{
+    display: flex;
+}
+
 .a{
     display: flex;
     align-items: center;
@@ -158,7 +162,4 @@
 
 
 
-.btn--return{
-    display: flex;
-}
 
