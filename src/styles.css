@@ -112,19 +112,25 @@
 }
 
 
-
+/* Seguiente Caja */
 
 .result img{
     max-width: 160px;
+    display: block;
+
 }
 
 .result{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-
     display: none;
+}
+
+/* Boton para volver */
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .min--box{
@@ -149,3 +155,10 @@
 .box--hidden{
     display: none;
 }
+
+
+
+.btn--return{
+    display: flex;
+}
+
